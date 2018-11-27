@@ -9,6 +9,12 @@ public class MenuRunner {
         Sandwich icedTea = new Sandwich (1.50, "Iced Tea");
         Sandwich Smoothie = new Sandwich (5.50, "Smoothie");
 
-        Trio trio1 = new Trio ()
+        Trio trio1 = new Trio (Reuben, Waldorf, icedTea);
+        Trio trio2 = new Trio (bec, Caeser, Smoothie);
+        Trio trio3= new Trio (bec, Caeser, icedTea);
+
+        System.out.println(trio1. getName() + "Price" + trio1.getPrice());
+        System.out.println(trio2. getName() + "Price" + trio2.getPrice());
+        System.out.println(trio3. getName() + "Price" + trio3.getPrice());
     }
 }
