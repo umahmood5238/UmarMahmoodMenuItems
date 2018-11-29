@@ -4,10 +4,10 @@ public class MenuRunner {
     public static void main (String[] args) {
         Sandwich Reuben = new Sandwich (5.75, "Reuben");
         Sandwich bec = new Sandwich (2.00, "BEC");
-        Sandwich Waldorf = new Sandwich (7.25, "Waldorf");
-        Sandwich Caeser = new Sandwich (4.50, "Caeser");
-        Sandwich icedTea = new Sandwich (1.50, "Iced Tea");
-        Sandwich Smoothie = new Sandwich (5.50, "Smoothie");
+        Salad Waldorf = new Salad (7.25, "Waldorf");
+        Salad Caeser = new Salad (4.50, "Caeser");
+        Drink icedTea = new Drink (1.50, "Iced Tea");
+        Drink Smoothie = new Drink (5.50, "Smoothie");
 
         Trio trio1 = new Trio (Reuben, Waldorf, icedTea);
         Trio trio2 = new Trio (bec, Caeser, Smoothie);
