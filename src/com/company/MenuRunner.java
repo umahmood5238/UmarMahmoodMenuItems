@@ -2,12 +2,12 @@ package com.company;
 
 public class MenuRunner {
     public static void main (String[] args) {
-        Sandwich Reuben = new Sandwich (5.75, "Reuben");
-        Sandwich bec = new Sandwich (2.00, "BEC");
-        Salad Waldorf = new Salad (7.25, "Waldorf");
-        Salad Caeser = new Salad (4.50, "Caeser");
-        Drink icedTea = new Drink (1.50, "Iced Tea");
-        Drink Smoothie = new Drink (5.50, "Smoothie");
+        Sandwich Reuben = new Sandwich ("Reuben", 5.75);
+        Sandwich bec = new Sandwich ("BEC", 2.00);
+        Salad Waldorf = new Salad ("Waldorf", 7.25);
+        Salad Caeser = new Salad ("Caeser", 4.50);
+        Drink icedTea = new Drink ("Iced Tea", 1.50);
+        Drink Smoothie = new Drink ("Smoothie", 5.50);
 
         Trio trio1 = new Trio (Reuben, Waldorf, icedTea);
         Trio trio2 = new Trio (bec, Caeser, Smoothie);
